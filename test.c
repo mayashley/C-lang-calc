@@ -3,8 +3,8 @@
 
 int main()
 {
-    double num1;
-    double num2;
+    float num1;
+    float num2;
     char operator;
 
     printf("Enter your first number: ");
@@ -15,22 +15,21 @@ int main()
     printf("Enter your second number: ");
     scanf("%1f", &num2);
 
-    if (operator == '+')
+    if (operator== '+')
     {
         printf("%f", num1 + num2);
     }
-    else if (operator == '-')
+    else if (operator== '-')
     {
         printf("%f", num1 - num2);
     }
-    else if (operator == '/')
+    else if (operator== '/')
     {
         printf("%f", num1 / num2);
     }
-    else if (operator == '*')
+    else if (operator== '*')
     {
         printf("%f", num1 * num2);
-    
     }
     else
     {
