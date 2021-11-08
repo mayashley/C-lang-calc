@@ -14,5 +14,19 @@ int main()
     scanf(" %c", &operator);
     printf("Enter your second number");
     scanf("%1f, &user_num2: ");
+
+
+if(operator == '+'){
+    printf("%f", user_num1 + user_num2);
+} else if (operator == '-'){
+    printf("%f", user_num1 - user_num2);
+} else if 
+
+
+
+
+
+
+
     return 0;
 }
