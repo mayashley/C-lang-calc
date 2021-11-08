@@ -15,18 +15,26 @@ int main()
     printf("Enter your second number");
     scanf("%1f, &user_num2: ");
 
-
-if(operator == '+'){
-    printf("%f", user_num1 + user_num2);
-} else if (operator == '-'){
-    printf("%f", user_num1 - user_num2);
-} else if 
-
-
-
-
-
-
+    if (operator== '+')
+    {
+        printf("%f", user_num1 + user_num2);
+    }
+    else if (operator== '-')
+    {
+        printf("%f", user_num1 - user_num2);
+    }
+    else if (operator== '/')
+    {
+        printf("%f", user_num1 / user_num2);
+    }
+    else if (operator== '*')
+    {
+        printf("%f", user_num1 * user_num2);
+    }
+    else
+    {
+        printf("Please enter a valid operator to calculate");
+    }
 
     return 0;
 }
